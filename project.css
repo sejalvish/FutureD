@@ -1,0 +1,212 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background-image: linear-gradient(to right, #2b3236, #deec60);
+}
+.nav-link
+{
+    font-size: 16px;
+    color: #fff !important;
+    margin: 2px;
+}
+.navbar-nav
+{
+    text-align: right;
+}
+.menu-bar .navbar-toggler
+{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+.banner
+{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(brooke-cagle-g1Kr4Ozfoac-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.banner h1
+{
+padding-top: 170px;
+font-size: 50px;
+letter-spacing: 6px;
+font-weight: 600px;
+text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.search-job
+{
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+    background-image: linear-gradient(to right, #2b3236, #deec60) ;
+}
+.search-job .form-control
+{
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none !important;
+}
+.search-job .btn-primary
+{
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 20px ;
+}
+/* Top recruiters */
+#recruiters
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#recruiters
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+h3::before
+{
+    content: '';
+    background-image: linear-gradient(to right, #2b3236, #deec60);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+#recruiters img
+{
+    max-width: 200px;
+    margin: 10px 20px;
+}
+/* jobs */
+#jobs
+{
+   
+    background: #d4d4f5;
+    padding: 50px 0;
+}
+.company-details
+{
+    
+    box-shadow: 0 0px 70px 0  rgba(20, 21, 27, 0.18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.job-updates
+{
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.job-updates .fa
+{
+    margin-right: 5px;
+    margin-top: 10px;
+    color: #77d1b1;
+}
+.job-updates small
+{
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+.job-updates p
+{
+    margin-bottom: 0 !important;
+}
+.job-updates a
+{
+    text-decoration: none !important;
+    color: #2f52a8;
+    float: right;
+}
+.apply-btn
+{
+    height: 40px;
+    background-image:linear-gradient(to right, #2b3236, #deec60) ;
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.apply-btn .btn-primary
+{
+    padding: 0 30px;
+    float: right;
+    border-radius: 0;
+    box-shadow: none !important;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.page-link li
+{
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-flex;
+    cursor: pointer;
+}
+.page-link li :hover, .active
+{
+    color: white;
+    background-image: linear-gradient(to right, #2b3236, #deec60);
+}
+.left-arrow
+{
+    color: #999;
+}
+.right-arrow
+{
+    color: #29b929;
+}
+/* site stats */
+#site-stats
+{
+    padding: 25px 0;
+}
+#site-stats h3
+{
+    margin: 1px;
+}
+.stats-box
+{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px 0 rgba(20, 21, 27, 0.18) ;
+}
+.stats-box .fa
+{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#footer
+{
+    background-image: #f8f9fd;
+    padding: 20px 10px 8px;
+}
+.footer-image
+{
+    margin: 30px 0;
+}
+#footer 
+{
+   color: #333;
+   background-image: linear-gradient(to right, #2b3236, #deec60) ;
+}
